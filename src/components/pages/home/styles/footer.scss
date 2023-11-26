@@ -1,0 +1,52 @@
+.footer{
+  box-shadow: 0 0.2px 3px;
+}
+
+.footer-columns{
+  margin-left: 150px;
+}
+
+.column b{
+  color: #000000DE;
+  font-size: 20px;
+}
+
+.column p{
+  cursor: pointer;
+  color: #00000094;
+}
+
+.column p:hover {
+  color: black;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 0;
+  }
+  
+  .column {
+    flex: 1;
+    text-align: left;
+    padding: 0 20px;
+  }
+  
+  .column h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .column p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .footer-info {
+    margin-top: 15px;
+    font-size: 12px;
+    text-align: center;
+  }
+  

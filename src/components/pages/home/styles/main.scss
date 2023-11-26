@@ -1,0 +1,258 @@
+main {
+    padding: 35px;
+    margin: 0 auto;
+  }
+  
+  @media screen and (min-width: 2181px) and (max-width: 2700px) {
+    .menu {
+      margin-bottom: 35px;
+      margin-right: 470px;
+      margin-left: 470px;
+    }
+    
+    .textad {
+      margin-top: 50px;
+      margin-left: 150px;
+      text-align: center;
+      font-size: 20px;
+      Line-height: 35px ;
+    }
+    
+    .textadp {
+      margin-top: 150px;
+      margin-left: 200px;
+      text-align: center;
+      font-size: 25px;
+      Line-height: 35px ;
+    }
+    .textadp h1{
+      Line-height: 50px ;
+    }
+  
+    .specials {
+      display: flex;
+      margin-bottom: 35px;
+      margin-right: 470px;
+      margin-left: 470px;
+      padding: 0px;
+    }
+    
+    .menu img,
+    .specials img {
+      width: 40%;
+      height: auto;
+      object-fit: cover;
+      align-self: flex-start;
+    }
+    
+    .menu h2,
+    .specials h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 2180px) and  (min-width: 1500px){
+    .menu {
+      justify-content: space-between;
+      margin-bottom: 35px;
+      margin-right: 300px;
+      margin-left: 300px;
+    }
+    
+    .textad {
+      margin-top: 10px;
+      margin-left: 20px;
+      font-size: 20px;
+      Line-height: 35px ;
+    }
+    
+    .textadp {
+      margin-top: 90px;
+      margin-left: 20px;
+      text-align: center;
+      font-size: 15px;
+      Line-height: 35px ;
+    }
+    .textadp h1{
+      Line-height: 50px ;
+    }
+  
+    .specials {
+      display: flex;
+      margin-bottom: 35px;
+      margin-right: 300px;
+      margin-left: 300px;
+      padding: 0px;
+    }
+    
+    .menu img,
+    .specials img {
+      width: 60%;
+      height: auto;
+      object-fit: cover;
+      align-self: flex-start;
+    }
+    
+    .menu h2,
+    .specials h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (min-width: 500px) and (max-width: 1500px) {
+    .menu {
+      margin-bottom: 20px;
+      margin-right: 100px;
+      margin-left: 100px;
+    }
+  
+    .textad {
+      margin-top: 30px;
+      margin-left: 50px;
+      text-align: center;
+      font-size: 18px;
+      line-height: 30px;
+    }
+  
+    .textadp {
+      margin-top: 100px;
+      margin-left: 80px;
+      text-align: center;
+      font-size: 20px;
+      line-height: 30px;
+    }
+  
+    .textadp h1 {
+      line-height: 40px;
+    }
+  
+    .specials {
+      display: flex;
+      margin-bottom: 20px;
+      margin-right: 100px;
+      margin-left: 100px;
+      padding: 0;
+    }
+  
+    .menu img,
+    .specials img {
+      width: 50%;
+      height: auto;
+      object-fit: cover;
+      align-self: flex-start;
+    }
+  
+    .menu h2,
+    .specials h2 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .menu {
+      margin-bottom: 15px;
+      margin-right: 30px;
+      margin-left: 30px;
+    }
+  
+    .textad {
+      margin-top: 20px;
+      margin-left: 20px;
+      text-align: center;
+      font-size: 16px;
+      line-height: 25px;
+    }
+  
+    .textadp {
+      margin-top: 70px;
+      margin-left: 30px;
+      text-align: center;
+      font-size: 18px;
+      line-height: 25px;
+    }
+  
+    .textadp h1 {
+      line-height: 35px;
+    }
+  
+    .specials {
+      display: flex;
+      margin-bottom: 15px;
+      margin-right: 30px;
+      margin-left: 30px;
+      padding: 0;
+    }
+  
+    .menu img,
+    .specials img {
+      width: 80%;
+      height: auto;
+      object-fit: cover;
+      align-self: flex-start;
+    }
+  
+    .menu h2,
+    .specials h2 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  }
+  
+
+  .menu {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #bbf2d1;
+  }
+  
+  .textad {
+    text-align: center;
+    color: #1e3932;
+    Line-height: 35px ;
+  }
+  
+  .textadp {
+    text-align: center;
+    color: #fff;
+    Line-height: 35px ;
+  }
+  .textadp h1{
+    Line-height: 50px ;
+  }
+
+  .specials {
+    display: flex;
+    background-color: #b04a5a;
+    margin-bottom: 35px;
+    padding: 0px;
+  }
+  
+  .menu img,
+  .specials img {
+    height: auto;
+    object-fit: cover;
+    align-self: flex-start;
+  }
+  
+  .imge {
+    width: 90px;
+  }
+  
+  .menu h2,
+  .specials h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .twotxt {
+    color: white;
+  }  
