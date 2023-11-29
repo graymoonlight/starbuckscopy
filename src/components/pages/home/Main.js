@@ -15,10 +15,10 @@ function Main() {
           <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-85869.jpg" alt="Starbucks logo"/>
           <div class="textadp">
             <h1>Good idea, chai <br /> lovers</h1>
-            <h1>ㅤ</h1>
+            <h1 className="void">ㅤ</h1>
             <a>Try the new coffee-free Iced Pumpkin Cream <br /> Chai Tea Latte, inspired by our customers. It’s <br /> fall in a cup.</a>
           </div>
-        </div> 
+        </div>
       </main> 
     ); 
   } 

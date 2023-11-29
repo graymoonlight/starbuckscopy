@@ -11,7 +11,7 @@ function Header() {
             <ul> 
               <h1>MENU</h1> 
               <h1>REWARDS</h1> 
-              <h1>GIFT CARDS</h1> 
+              <h1 className="gift">GIFT CARDS</h1> 
             </ul> 
           </nav> 
         </div> 

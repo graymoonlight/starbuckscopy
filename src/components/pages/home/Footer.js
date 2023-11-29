@@ -52,8 +52,8 @@ function Footer() {
         </div>
   
         <div className="footer-info">
-          <p>Privacy Notice | Terms of Use | Do Not Share My Personal Information | CA Supply Chain Act | Cookie Preferences</p>
-          <p>© 2023 Starbucks Coffee Company. All rights reserved.</p>
+          <p className="one">Privacy Notice | Terms of Use | Do Not Share My Personal Information | CA Supply Chain Act | Cookie Preferences</p>
+          <p className="two">© 2023 Starbucks Coffee Company. All rights reserved.</p>
         </div>
       </footer>
     );
