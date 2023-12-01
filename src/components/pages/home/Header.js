@@ -8,7 +8,7 @@ function Header() {
         <div class="cont_head"> 
           <img src="https://i.pinimg.com/originals/70/de/e0/70dee0a5d8f1b2bb4f508a4bddd539b5.jpg" alt="Starbucks logo" class="imge"/> 
           <nav> 
-            <ul> 
+            <ul className="first_ul"> 
               <h1>MENU</h1> 
               <h1>REWARDS</h1> 
               <h1 className="gift">GIFT CARDS</h1> 

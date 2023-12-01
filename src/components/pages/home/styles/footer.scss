@@ -51,10 +51,6 @@
   }
 
 @media screen and (min-width: 0px) and (max-width: 1024px) {
-  .footer{
-    position: absolute; 
-    bottom: 0;
-  }
   .void{
     display: none;
   }
@@ -67,7 +63,6 @@
   .column {
     flex: 1;
     text-align: left;
-    padding: 0 50px ;
     margin-right: 100px;
   }
 }
@@ -79,7 +74,6 @@
   .column {
     flex: 1;
     text-align: left;
-    padding: 0 81.48px ;
     margin-right: 100px;
   }
 }
@@ -91,7 +85,6 @@
   .column {
     flex: 1;
     text-align: left;
-    padding: 0 56.45px ;
     margin-right: 100px;
   }
 }
@@ -103,7 +96,7 @@
   .column {
     flex: 1;
     text-align: left;
-    padding: 0 28.75px ;
+    padding: 0px ;
     margin-right: 100px;
   }
 }
